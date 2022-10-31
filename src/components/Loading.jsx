@@ -3,8 +3,10 @@ import React from 'react'
 const Loading = () => {
     return (
         <div>
-            <h2>loader</h2>
             
+        
+            <h1>Loading...</h1>
+
         </div>
     );
 };
