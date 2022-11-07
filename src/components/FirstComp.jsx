@@ -1,17 +1,17 @@
 import React from 'react';
 
-const Header = () => {
+const FirstComp = () => {
     return (
         <div>
-            <header className='dark'>
+            <FirstComp className='dark'>
                 <input type="radio" name='theme' id='light' value="light" />
                 <label htmlFor="light">claro</label>
                 <input type="radio" name='theme' id='dark' value="dark" />
                 <label htmlFor="dark">Oscuro</label>
-            </header>
+            </FirstComp>
             
         </div>
     );
 };
 
-export default Header;
+export default FirstComp;

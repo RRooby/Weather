@@ -3,24 +3,14 @@
 import './App.css'
 
 import Weather from './components/Weather'
-import Header from './components/Header'
+import FirstComp from './components/FirstComp'
 import { useState } from 'react'
 
 function App() {
 
- 
-
   return (
     <div className="App">
-      {/* <Header /> */}
-      
       <Weather />
-      {/* <Loading/> */}
-    
-
-    
-      
-      
     </div>
   )
 }
